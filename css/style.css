@@ -39,19 +39,20 @@ section {
 }
 
 .projetos {
-    background-color: lightsalmon;
     width: 100%;
 }
 
 .contato {
-    background-color: magenta;
     width: 100%;
 }
 
-footer {
+footer{
     place-self: end start;
     grid-area: content;
     height: 100px;
     width: 100%;
-    background-color: #0008;
+    display: grid;
+    place-content: center;
+    font-size: .75rem;
+    border-top: 2px solid #fff;
 }

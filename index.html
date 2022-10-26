@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Ubuntu:wght@300;400;700&display=swap"rel="stylesheet">
     <script src="https://kit.fontawesome.com/30058942d9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -13,8 +14,13 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/section-title.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contatos.css">
+    <link rel="stylesheet" href="./css/back.css">
     <title>Portfolio - Matheus Alves</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -39,6 +45,10 @@
     </header>
 
     <main>
+        <a href="#home" class="back" title="Voltar">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
+
         <section class="home" id="home">
             <img src="./img/foto-perfil.png" alt="foto de perfil" class="home__photo">
             <div>
@@ -52,8 +62,10 @@
             <h2 class="section-title">Sobre Mim</h2>
             <div class="description">
                 <h3 class="description__title">Quem sou?</h3>
-                <p class="description__text">Sou iniciante na área de criação e manutenção de sites, tenho conhecimento em prototipação e designer sempre pensando na experiência do usuário.
-                    Sou apaixonado pelo mundo digital e desenvolvimento, sempre procurando inspiração nos meus colegas de trabalho e no mundo que me rodeia.</p>
+                <p class="description__text">Sou iniciante na área de criação e manutenção de sites, tenho conhecimento
+                    em prototipação e designer sempre pensando na experiência do usuário.
+                    Sou apaixonado pelo mundo digital e desenvolvimento, sempre procurando inspiração nos meus colegas
+                    de trabalho e no mundo que me rodeia.</p>
             </div>
             <div class="skills">
                 <h3 class="skills__title">Skills:</h3>
@@ -93,10 +105,98 @@
             </div>
         </section>
 
-        <section class="projetos" id="projetos"></section>
-        <section class="contato" id="contato"></section>
+        <section class="projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="https://github.com/MatheusAlves099/landing-page-pikachu" target="blank" class="card">
+                    <img src="./img/pikachu.png" alt="Pikachu">
+                </a>
+                <a href="https://github.com/MatheusAlves099/headphone-purple" target="blank" class="card">
+                    <img src="./img/headphone.png" alt="Headphone">
+                </a>
+                <a href="https://github.com/MatheusAlves099/atividade_LIMA" target="blank" class="card">
+                    <img src="./img/regular-show.png" alt="Regular Show">
+                </a>
+                <a href="https://github.com/MatheusAlves099/projeto-nike" target="blank" class="card">
+                    <img src="./img/nikee.png" alt="Nike">
+                </a>
+                <a href="https://github.com/MatheusAlves099/FormativaTabuada" target="blank" class="card">
+                    <img src="./img/tabuada.png" alt="Tabuada">
+                </a>
+                <a href="https://github.com/MatheusAlves099/receita-bolo" target="blank" class="card">
+                    <img src="./img/receita-bolo.png" alt="receita-bolo">
+                </a>
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3 class="contato-title">Contato</h3>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(11) 4774-4700</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>mts02501@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>(11) 94490-1479</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="social-container">
+                <li>
+                    <a href="https://instagram.com/math_alves099" class="social-item" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/MatheusAlves099" class="social-item" target="_blank">
+                        <i class="fab fa-github-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/matheusalvesreisdasilva/" class="social-item" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.figma.com/files/user/830208557143248439?fuid=830208557143248439" class="social-item" target="_blank">
+                        <i class="fa-brands fa-figma"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3 class="link-title">Links</h3>
+                </li>
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </section>
     </main>
 
-    <footer></footer>
+    <footer>Todos os direitos reservados 2022 | Desenvolvido por Matheus Alves</footer>
 </body>
+
 </html>
