@@ -56,3 +56,22 @@ footer{
     font-size: .75rem;
     border-top: 2px solid #fff;
 }
+
+/* TABLET */
+@media (max-width:960px){
+    .projetos{
+        height: 260vh;
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .projetos{
+        height: 290vh;
+    }
+
+    .contato{
+        height: 220vh;
+    }
+}
+}

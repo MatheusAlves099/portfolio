@@ -9,10 +9,24 @@
     place-content: center;
     color: #000;
     border-radius: 50%;
-    z-index: 666;
+    z-index: 13;
     opacity: .2;
     transition: opacity .5s;
 }
 .back:hover{
     opacity: 1;
+}
+
+/* TABLET */
+@media (max-width:960px){
+    .back{
+        display: none;
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .back{
+        display: none;
+    }
 }

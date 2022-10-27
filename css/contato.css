@@ -10,13 +10,13 @@
     align-items: center;
     padding-bottom: 200px;
 }
-.contato-container{
+.contato-container {
     grid-area: contato;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.contato-title{
+.contato-title {
     font-size: 1.5rem;
 }
 .contato-item{
@@ -26,14 +26,14 @@
 .contato-item i{
     font-size: 1.5rem;
 }
-.social-container{
+.social-container {
     grid-area: social;
     display: flex;
     gap: 32px;
     font-size: 1.5rem;
     justify-content: center;
 }
-.social-item{
+.social-item {
     width: 64px;
     height: 64px;
     background-color: var(--icon-color);
@@ -41,18 +41,18 @@
     place-content: center;
     transition: color .5s;
 }
-.social-item:hover{
+.social-item:hover {
     color: var(--primary-color);
     box-shadow: inset 0px 0px 5px var(--primary-color);
 }
-.link-container{
+.link-container {
     grid-area: link;
     display: flex;
     flex-direction: column;
     gap: 16px;
     text-align: right;
 }
-.link-title{
+.link-title {
     font-size: 1.5rem;
 }
 
@@ -66,9 +66,23 @@
 }
 
 /* TABLET */
-@media (max-width:960px){
-    .contatos{
+@media (max-width:960px) {
+    .contato {
         max-width: 672px;
         width: 100%;
+        display: grid;
+        grid-template-areas: 
+        "title title"
+        "contato link"
+        "social social";
+        grid-template-rows: auto 400px 80px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contato-container {
+        grid-area: contato;
+        
+    }
+    .social-container{
+        place-self: start center;
     }
 }

@@ -19,3 +19,41 @@
     font-size: 4rem;
     font-weight: 700;
 }
+
+.menu__bars {
+    display: none;
+}
+
+/* TABLET */
+@media (max-width:960px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .home__text {
+        display: flex;
+        justify-content: center;
+    }
+    .menu__bars {
+        display: flex;
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .home__text {
+        display: flex;
+        justify-content: center;
+    }
+    .menu__bars {
+        display: flex;
+    }
+}
