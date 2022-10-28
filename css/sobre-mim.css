@@ -104,9 +104,9 @@
 
 /*MOBILE*/
 @media (max-width:640px) {
-    
+
     .sobre-mim .section-title {
-        font-size: 7rem;
+        font-size: 6.5rem;
     }
 
     .sobre-mim {

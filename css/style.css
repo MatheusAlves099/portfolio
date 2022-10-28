@@ -67,7 +67,7 @@ footer{
 /* MOBILE */
 @media (max-width:640px){
     .projetos{
-        height: 520vh;
+        height: 470vh;
     }
 
     .sobre-mim {
