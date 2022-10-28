@@ -98,7 +98,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 32px;
+        flex-wrap: wrap;
+        gap: 92px;
     }
 }
 
