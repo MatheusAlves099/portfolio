@@ -41,11 +41,17 @@
         display: flex;
         flex-direction: column;
     }
+
+    .projetos .section-title {
+        font-size: 8rem;
+    }
+
     .card-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .card {
         width: 600px;
         height: 400px;
@@ -55,6 +61,17 @@
 }
 
 /* MOBILE */
-@media (max-width:640px) {
-
+@media (max-width:640px){
+    .projetos{
+        max-width: 592px;
+        width: 100%;
+        align-items: center;
+    }
+    .card{
+        width: 540px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }  
 }

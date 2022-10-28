@@ -98,6 +98,10 @@
         gap: 48px;
     }
 
+    .contato .section-title {
+        font-size: 8rem;
+    }
+
     .contato .contato-title {
         display: none;
     }
