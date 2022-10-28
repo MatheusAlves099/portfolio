@@ -67,11 +67,14 @@ footer{
 /* MOBILE */
 @media (max-width:640px){
     .projetos{
-        height: 290vh;
+        height: 520vh;
     }
 
-    .contato{
-        height: 220vh;
+    .sobre-mim {
+        height: 200vh;
     }
-}
+
+    .home {
+        height: 130vh;
+    }
 }

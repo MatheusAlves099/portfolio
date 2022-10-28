@@ -86,3 +86,39 @@
         place-self: start center;
     }
 }
+
+/* MOBILE */
+@media (max-width:640px) {
+    .contato {
+        max-width: 592px;
+        display: flex;
+        height: 1200px;
+        width: 100%;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .contato .contato-title {
+        display: none;
+    }
+
+    .contato-container {
+        align-items: center;
+        font-size: 1.5rem;
+        gap: 15px;
+    }
+
+    .contato .contato-item {
+        justify-content: center;
+    }
+
+    .social-container {
+        display: flex;
+        flex-direction: column;
+        place-self: center;
+    }
+
+    .link-container {
+        align-items: center;
+    }
+}
