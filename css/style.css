@@ -78,3 +78,14 @@ footer{
         height: 100vh;
     }
 }
+
+/* IPHONE SE */
+@media (max-width:375px) {
+    .sobre-mim {
+        height: 210vh;
+    }
+
+    .projetos {
+        height: 380vh;
+    }
+}
