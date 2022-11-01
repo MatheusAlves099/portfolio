@@ -6,7 +6,7 @@
 
 ---
 ## Sobre
-Site criado para divulgarmos o nosso portfólio pessoal.
+Site criado para divulgarmos nosso portfólio pessoal.
 O objetivo deste projeto é colocar em prática os conhecimentos, sobre desenvolvimento de sites, adquiridos no curso do SENAI Jandira.
 
 ---
