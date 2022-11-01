@@ -1,6 +1,6 @@
 # Portfólio - Matheus Alves
 
-![](./img/port.png)
+![](./img/port.PNG)
 
 [Clique Aqui](https://matheusalves099.github.io/portfolio/) para acessar o site.
 
