@@ -81,6 +81,10 @@ footer{
 
 /* IPHONE SE */
 @media (max-width:375px) {
+    .home {
+        height: 160vh;
+    }
+
     .sobre-mim {
         height: 210vh;
     }
